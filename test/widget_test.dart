@@ -1,30 +1,53 @@
-// This is a basic Flutter widget test.
-//
-// To perform an interaction with a widget in your test, use the WidgetTester
-// utility in the flutter_test package. For example, you can send tap and scroll
-// gestures. You can also use WidgetTester to find child widgets in the widget
-// tree, read text, and verify that the values of widget properties are correct.
+import 'dart:io';
 
-import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:within/app/within_app.dart';
+import 'package:within/services/teaching_service.dart';
+import 'package:within/services/widget_service.dart';
 
-import 'package:within/main.dart';
+class _FakeWidgetService extends WidgetService {
+  int refreshes = 0;
+
+  @override
+  Future<void> refresh() async => refreshes++;
+}
 
 void main() {
-  testWidgets('Counter increments smoke test', (WidgetTester tester) async {
-    // Build our app and trigger a frame.
-    await tester.pumpWidget(const MyApp());
+  final service = TeachingService.fromJsonString(
+    File('assets/teachings/buddhism.json').readAsStringSync(),
+  );
 
-    // Verify that our counter starts at 0.
-    expect(find.text('0'), findsOneWidget);
-    expect(find.text('1'), findsNothing);
+  testWidgets('shows the teaching for the current date and refreshes widgets', (
+    tester,
+  ) async {
+    final widgets = _FakeWidgetService();
+    final now = DateTime(2025, 1, 2, 9);
 
-    // Tap the '+' icon and trigger a frame.
-    await tester.tap(find.byIcon(Icons.add));
-    await tester.pump();
+    await tester.pumpWidget(
+      WithinApp(
+        teachingService: service,
+        widgetService: widgets,
+        clock: () => now,
+      ),
+    );
 
-    // Verify that our counter has incremented.
-    expect(find.text('0'), findsNothing);
-    expect(find.text('1'), findsOneWidget);
+    final expected = service.forDate(now);
+    expect(find.text(expected.text), findsOneWidget);
+    expect(find.text(expected.reference), findsOneWidget);
+    expect(find.text('Paraphrase'), findsOneWidget);
+    expect(find.text('THURSDAY, 2 JANUARY'), findsOneWidget);
+    expect(widgets.refreshes, 1);
+  });
+
+  testWidgets('opens widget instructions', (tester) async {
+    await tester.pumpWidget(
+      WithinApp(teachingService: service, widgetService: _FakeWidgetService()),
+    );
+
+    await tester.tap(find.text('Add the widget to your phone'));
+    await tester.pumpAndSettle();
+
+    expect(find.text('LOCK SCREEN'), findsOneWidget);
+    expect(find.text('HOME SCREEN'), findsOneWidget);
   });
 }

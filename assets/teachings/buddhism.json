@@ -1,5 +1,396 @@
 {
   "tradition": "buddhism",
   "version": 1,
-  "teachings": []
+  "teachings": [
+    {
+      "id": "buddha_001",
+      "tradition": "buddhism",
+      "scripture": "Dhammapada",
+      "reference": "Dhammapada 1",
+      "text": "Mind comes before all things; mind is their chief, and they are made by mind. Speak or act with a corrupted mind, and suffering follows, as the wheel follows the ox that pulls the cart.",
+      "shortText": "Mind comes before all things. Act with a corrupted mind, and suffering follows.",
+      "contentType": "paraphrase",
+      "language": "en"
+    },
+    {
+      "id": "buddha_002",
+      "tradition": "buddhism",
+      "scripture": "Dhammapada",
+      "reference": "Dhammapada 2",
+      "text": "Mind comes before all things; mind is their chief, and they are made by mind. Speak or act with a pure mind, and happiness follows, like a shadow that never leaves.",
+      "shortText": "Act with a pure mind, and happiness follows like a shadow that never leaves.",
+      "contentType": "paraphrase",
+      "language": "en"
+    },
+    {
+      "id": "buddha_003",
+      "tradition": "buddhism",
+      "scripture": "Dhammapada",
+      "reference": "Dhammapada 3",
+      "text": "“They insulted me, they hurt me, they defeated me, they robbed me.” Those who hold on to such thoughts never quiet their hatred.",
+      "shortText": "Hold on to thoughts of being wronged, and hatred never quiets.",
+      "contentType": "paraphrase",
+      "language": "en"
+    },
+    {
+      "id": "buddha_004",
+      "tradition": "buddhism",
+      "scripture": "Dhammapada",
+      "reference": "Dhammapada 5",
+      "text": "Hatred is never ended by hatred in this world. By non-hatred alone is hatred ended. This is an eternal law.",
+      "shortText": "Hatred is never ended by hatred. By non-hatred alone it ends.",
+      "contentType": "paraphrase",
+      "language": "en"
+    },
+    {
+      "id": "buddha_005",
+      "tradition": "buddhism",
+      "scripture": "Dhammapada",
+      "reference": "Dhammapada 6",
+      "text": "Many forget that we must all one day die. Those who truly understand this let their quarrels come to rest.",
+      "shortText": "Remember we must all one day die, and quarrels come to rest.",
+      "contentType": "paraphrase",
+      "language": "en"
+    },
+    {
+      "id": "buddha_006",
+      "tradition": "buddhism",
+      "scripture": "Dhammapada",
+      "reference": "Dhammapada 21",
+      "text": "Heedfulness is the path to the deathless; heedlessness is the path to death. The heedful do not die; the heedless are as if already dead.",
+      "shortText": "Heedfulness is the path to the deathless.",
+      "contentType": "paraphrase",
+      "language": "en"
+    },
+    {
+      "id": "buddha_007",
+      "tradition": "buddhism",
+      "scripture": "Dhammapada",
+      "reference": "Dhammapada 25",
+      "text": "Through effort, heedfulness, discipline and self-control, the wise make of themselves an island that no flood can overwhelm.",
+      "shortText": "Through effort and self-control, become an island no flood can overwhelm.",
+      "contentType": "paraphrase",
+      "language": "en"
+    },
+    {
+      "id": "buddha_008",
+      "tradition": "buddhism",
+      "scripture": "Dhammapada",
+      "reference": "Dhammapada 33",
+      "text": "The restless, wavering mind is hard to guard and hard to hold back. The wise straighten it, as a fletcher straightens an arrow.",
+      "shortText": "The wise straighten the restless mind, as a fletcher straightens an arrow.",
+      "contentType": "paraphrase",
+      "language": "en"
+    },
+    {
+      "id": "buddha_009",
+      "tradition": "buddhism",
+      "scripture": "Dhammapada",
+      "reference": "Dhammapada 35",
+      "text": "The mind is hard to restrain, swift, and lands wherever it wishes. It is good to tame it. A tamed mind brings happiness.",
+      "shortText": "It is good to tame the mind. A tamed mind brings happiness.",
+      "contentType": "paraphrase",
+      "language": "en"
+    },
+    {
+      "id": "buddha_010",
+      "tradition": "buddhism",
+      "scripture": "Dhammapada",
+      "reference": "Dhammapada 43",
+      "text": "Neither mother, nor father, nor any other relative can do you as much good as your own well-directed mind.",
+      "shortText": "No one can do you as much good as your own well-directed mind.",
+      "contentType": "paraphrase",
+      "language": "en"
+    },
+    {
+      "id": "buddha_011",
+      "tradition": "buddhism",
+      "scripture": "Dhammapada",
+      "reference": "Dhammapada 50",
+      "text": "Do not dwell on the faults of others, on what they have done or left undone. Look instead at what you yourself have done and left undone.",
+      "shortText": "Look not at others' faults, but at what you have done and left undone.",
+      "contentType": "paraphrase",
+      "language": "en"
+    },
+    {
+      "id": "buddha_012",
+      "tradition": "buddhism",
+      "scripture": "Dhammapada",
+      "reference": "Dhammapada 51",
+      "text": "Like a beautiful flower that is bright in color but has no scent are the fine words of one who does not live by them.",
+      "shortText": "Fine words not lived by are like a bright flower with no scent.",
+      "contentType": "paraphrase",
+      "language": "en"
+    },
+    {
+      "id": "buddha_013",
+      "tradition": "buddhism",
+      "scripture": "Dhammapada",
+      "reference": "Dhammapada 62",
+      "text": "“I have children, I have wealth” — so the fool worries. But one does not even own oneself. How then children? How then wealth?",
+      "shortText": "We do not even own ourselves. How then can we own children or wealth?",
+      "contentType": "paraphrase",
+      "language": "en"
+    },
+    {
+      "id": "buddha_014",
+      "tradition": "buddhism",
+      "scripture": "Dhammapada",
+      "reference": "Dhammapada 63",
+      "text": "A fool who knows their foolishness is, to that extent, wise. But a fool who thinks themselves wise is a fool indeed.",
+      "shortText": "A fool who knows their foolishness is, to that extent, wise.",
+      "contentType": "paraphrase",
+      "language": "en"
+    },
+    {
+      "id": "buddha_015",
+      "tradition": "buddhism",
+      "scripture": "Dhammapada",
+      "reference": "Dhammapada 76",
+      "text": "Should you find a wise person who points out your faults, follow them as you would a guide to hidden treasure.",
+      "shortText": "One who points out your faults is a guide to hidden treasure.",
+      "contentType": "paraphrase",
+      "language": "en"
+    },
+    {
+      "id": "buddha_016",
+      "tradition": "buddhism",
+      "scripture": "Dhammapada",
+      "reference": "Dhammapada 80",
+      "text": "Irrigators guide water, fletchers shape arrows, carpenters shape wood. The wise shape themselves.",
+      "shortText": "Carpenters shape wood. The wise shape themselves.",
+      "contentType": "paraphrase",
+      "language": "en"
+    },
+    {
+      "id": "buddha_017",
+      "tradition": "buddhism",
+      "scripture": "Dhammapada",
+      "reference": "Dhammapada 81",
+      "text": "As a solid rock is not shaken by the wind, so the wise are not moved by praise or blame.",
+      "shortText": "As a rock is unshaken by wind, the wise are unmoved by praise or blame.",
+      "contentType": "paraphrase",
+      "language": "en"
+    },
+    {
+      "id": "buddha_018",
+      "tradition": "buddhism",
+      "scripture": "Dhammapada",
+      "reference": "Dhammapada 100",
+      "text": "Better than a thousand empty words is a single meaningful word that brings peace to the one who hears it.",
+      "shortText": "Better than a thousand empty words is one word that brings peace.",
+      "contentType": "paraphrase",
+      "language": "en"
+    },
+    {
+      "id": "buddha_019",
+      "tradition": "buddhism",
+      "scripture": "Dhammapada",
+      "reference": "Dhammapada 103",
+      "text": "One may conquer a thousand times a thousand people in battle, yet the one who conquers themselves is the greatest of victors.",
+      "shortText": "The one who conquers themselves is the greatest of victors.",
+      "contentType": "paraphrase",
+      "language": "en"
+    },
+    {
+      "id": "buddha_020",
+      "tradition": "buddhism",
+      "scripture": "Dhammapada",
+      "reference": "Dhammapada 116",
+      "text": "Hurry toward the good and hold your mind back from harm. When one is slow to do good, the mind begins to delight in harm.",
+      "shortText": "Hurry toward the good, and hold your mind back from harm.",
+      "contentType": "paraphrase",
+      "language": "en"
+    },
+    {
+      "id": "buddha_021",
+      "tradition": "buddhism",
+      "scripture": "Dhammapada",
+      "reference": "Dhammapada 122",
+      "text": "Do not think lightly of good, saying, “It will not come to me.” Drop by drop the water jar is filled; little by little, the wise fill themselves with good.",
+      "shortText": "Drop by drop the jar is filled. Little by little, the wise fill with good.",
+      "contentType": "paraphrase",
+      "language": "en"
+    },
+    {
+      "id": "buddha_022",
+      "tradition": "buddhism",
+      "scripture": "Dhammapada",
+      "reference": "Dhammapada 129",
+      "text": "All tremble at violence; all fear death. Seeing others as yourself, do not harm and do not cause harm.",
+      "shortText": "All fear violence. Seeing others as yourself, do no harm.",
+      "contentType": "paraphrase",
+      "language": "en"
+    },
+    {
+      "id": "buddha_023",
+      "tradition": "buddhism",
+      "scripture": "Dhammapada",
+      "reference": "Dhammapada 133",
+      "text": "Do not speak harshly to anyone. Those spoken to harshly will answer you in kind.",
+      "shortText": "Speak harshly to no one; harsh words return to you in kind.",
+      "contentType": "paraphrase",
+      "language": "en"
+    },
+    {
+      "id": "buddha_024",
+      "tradition": "buddhism",
+      "scripture": "Dhammapada",
+      "reference": "Dhammapada 160",
+      "text": "You are your own refuge; who else could be your refuge? With yourself well tamed, you find a refuge that is hard to find.",
+      "shortText": "You are your own refuge. Who else could be?",
+      "contentType": "paraphrase",
+      "language": "en"
+    },
+    {
+      "id": "buddha_025",
+      "tradition": "buddhism",
+      "scripture": "Dhammapada",
+      "reference": "Dhammapada 165",
+      "text": "By yourself is harm done, and by yourself you are stained. By yourself harm is left undone, and by yourself you are made pure. Purity and impurity depend on you; no one can purify another.",
+      "shortText": "Purity depends on yourself. No one can purify another.",
+      "contentType": "paraphrase",
+      "language": "en"
+    },
+    {
+      "id": "buddha_026",
+      "tradition": "buddhism",
+      "scripture": "Dhammapada",
+      "reference": "Dhammapada 182",
+      "text": "Hard it is to be born human, hard is the life of mortals, hard it is to hear the true teaching, and rare is the arising of a Buddha.",
+      "shortText": "Hard it is to be born human. Rare it is to hear the true teaching.",
+      "contentType": "paraphrase",
+      "language": "en"
+    },
+    {
+      "id": "buddha_027",
+      "tradition": "buddhism",
+      "scripture": "Dhammapada",
+      "reference": "Dhammapada 183",
+      "text": "To avoid all harm, to cultivate the good, and to purify one's own mind: this is the teaching of the Buddhas.",
+      "shortText": "Avoid harm, cultivate good, purify the mind.",
+      "contentType": "paraphrase",
+      "language": "en"
+    },
+    {
+      "id": "buddha_028",
+      "tradition": "buddhism",
+      "scripture": "Dhammapada",
+      "reference": "Dhammapada 197",
+      "text": "How happily we live, free from hatred among those who hate. Among people who hate, we dwell without hatred.",
+      "shortText": "How happily we live, free from hatred among those who hate.",
+      "contentType": "paraphrase",
+      "language": "en"
+    },
+    {
+      "id": "buddha_029",
+      "tradition": "buddhism",
+      "scripture": "Dhammapada",
+      "reference": "Dhammapada 201",
+      "text": "Victory breeds hatred; the defeated live in pain. The peaceful live happily, having set aside both victory and defeat.",
+      "shortText": "The peaceful live happily, setting aside both victory and defeat.",
+      "contentType": "paraphrase",
+      "language": "en"
+    },
+    {
+      "id": "buddha_030",
+      "tradition": "buddhism",
+      "scripture": "Dhammapada",
+      "reference": "Dhammapada 204",
+      "text": "Health is the greatest gain, contentment the greatest wealth, trust the best of relatives, and Nibbāna the highest happiness.",
+      "shortText": "Health is the greatest gain; contentment, the greatest wealth.",
+      "contentType": "paraphrase",
+      "language": "en"
+    },
+    {
+      "id": "buddha_031",
+      "tradition": "buddhism",
+      "scripture": "Dhammapada",
+      "reference": "Dhammapada 223",
+      "text": "Overcome anger with calm, overcome harm with good, overcome stinginess with giving, overcome the liar with truth.",
+      "shortText": "Overcome anger with calm, harm with good, the liar with truth.",
+      "contentType": "paraphrase",
+      "language": "en"
+    },
+    {
+      "id": "buddha_032",
+      "tradition": "buddhism",
+      "scripture": "Dhammapada",
+      "reference": "Dhammapada 228",
+      "text": "There never was, there never will be, and there is not now anyone who is only blamed or only praised.",
+      "shortText": "No one has ever been only blamed, or only praised.",
+      "contentType": "paraphrase",
+      "language": "en"
+    },
+    {
+      "id": "buddha_033",
+      "tradition": "buddhism",
+      "scripture": "Dhammapada",
+      "reference": "Dhammapada 239",
+      "text": "As a smith removes the impurities from silver, the wise remove their own impurities, little by little, moment by moment.",
+      "shortText": "As a smith purifies silver, the wise purify themselves, little by little.",
+      "contentType": "paraphrase",
+      "language": "en"
+    },
+    {
+      "id": "buddha_034",
+      "tradition": "buddhism",
+      "scripture": "Dhammapada",
+      "reference": "Dhammapada 251",
+      "text": "There is no fire like desire, no grip like hatred, no net like delusion, no river like craving.",
+      "shortText": "There is no fire like desire, and no river like craving.",
+      "contentType": "paraphrase",
+      "language": "en"
+    },
+    {
+      "id": "buddha_035",
+      "tradition": "buddhism",
+      "scripture": "Dhammapada",
+      "reference": "Dhammapada 252",
+      "text": "The faults of others are easy to see; one's own are hard to see.",
+      "shortText": "The faults of others are easy to see; one's own are hard to see.",
+      "contentType": "paraphrase",
+      "language": "en"
+    },
+    {
+      "id": "buddha_036",
+      "tradition": "buddhism",
+      "scripture": "Dhammapada",
+      "reference": "Dhammapada 276",
+      "text": "You yourself must make the effort. The Buddhas only show the way.",
+      "shortText": "You yourself must make the effort. The Buddhas only show the way.",
+      "contentType": "paraphrase",
+      "language": "en"
+    },
+    {
+      "id": "buddha_037",
+      "tradition": "buddhism",
+      "scripture": "Dhammapada",
+      "reference": "Dhammapada 277",
+      "text": "“All conditioned things are impermanent.” When one sees this with wisdom, one grows weary of suffering. This is the path to purity.",
+      "shortText": "All conditioned things are impermanent. Seeing this is the path to purity.",
+      "contentType": "paraphrase",
+      "language": "en"
+    },
+    {
+      "id": "buddha_038",
+      "tradition": "buddhism",
+      "scripture": "Dhammapada",
+      "reference": "Dhammapada 282",
+      "text": "From meditation, wisdom arises; without meditation, wisdom fades. Knowing these two paths, live so that wisdom grows.",
+      "shortText": "From meditation, wisdom arises. Without it, wisdom fades.",
+      "contentType": "paraphrase",
+      "language": "en"
+    },
+    {
+      "id": "buddha_039",
+      "tradition": "buddhism",
+      "scripture": "Dhammapada",
+      "reference": "Dhammapada 354",
+      "text": "The gift of the teaching surpasses all gifts; the taste of the teaching surpasses all tastes; delight in the teaching surpasses all delights.",
+      "shortText": "The gift of the teaching surpasses all other gifts.",
+      "contentType": "paraphrase",
+      "language": "en"
+    }
+  ]
 }
