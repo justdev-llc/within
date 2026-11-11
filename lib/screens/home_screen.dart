@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 
 import '../app/theme.dart';
 import '../models/teaching.dart';
+import '../services/auth_service.dart';
 import '../services/teaching_service.dart';
 import '../services/widget_service.dart';
 import '../widgets/teaching_card.dart';
@@ -14,11 +15,13 @@ class HomeScreen extends StatefulWidget {
     super.key,
     required this.teachingService,
     required this.widgetService,
+    required this.authService,
     this.clock = DateTime.now,
   });
 
   final TeachingService teachingService;
   final WidgetService widgetService;
+  final AuthService authService;
 
   /// Injectable for tests.
   final DateTime Function() clock;

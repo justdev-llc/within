@@ -2,6 +2,7 @@ import 'dart:io';
 
 import 'package:flutter_test/flutter_test.dart';
 import 'package:within/app/within_app.dart';
+import 'package:within/services/auth_service.dart';
 import 'package:within/services/teaching_service.dart';
 import 'package:within/services/widget_service.dart';
 
@@ -27,6 +28,7 @@ void main() {
       WithinApp(
         teachingService: service,
         widgetService: widgets,
+        authService: AuthService(null),
         clock: () => now,
       ),
     );
@@ -41,7 +43,11 @@ void main() {
 
   testWidgets('opens widget instructions', (tester) async {
     await tester.pumpWidget(
-      WithinApp(teachingService: service, widgetService: _FakeWidgetService()),
+      WithinApp(
+        teachingService: service,
+        widgetService: _FakeWidgetService(),
+        authService: AuthService(null),
+      ),
     );
 
     await tester.tap(find.text('Add the widget to your phone'));
